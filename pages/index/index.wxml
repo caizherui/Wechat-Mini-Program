@@ -1,0 +1,19 @@
+<!--pages/index/index.wxml-->
+<view class="ground">
+  <view class="menu">
+    <image class="backpicture" src="/static/低对比度.jpg" mode="aspectFill"></image>
+    <view class='top'>
+      <text>林业小贴士</text>
+    </view>
+    <view class="picture" bindtap="bindViewTap">
+      <image src="/static/camera1.png" mode="aspectFit"></image>
+    </view>
+    <view class="item"> 
+      <view class="title">昆虫识别</view>
+    </view> 
+  </view>
+  <view class="slogan">
+    <image src="/static/na.png" mode="aspectFit"></image>
+    <text class="natural">自然，由我们一起守护</text>
+  </view>
+</view>

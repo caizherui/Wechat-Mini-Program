@@ -1,0 +1,123 @@
+/* pages/home/home.wxss */
+page{
+  background: #edece8;
+  width: auto;
+}
+
+.menu{
+  height: 400rpx;
+}
+
+.menu .person{
+  position:relative;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .person .dynamic{
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: normal;
+  height: 400rpx;
+}
+
+.menu .person .external{
+  margin-top: 80rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  width: 160rpx;
+  height: 160rpx;
+  border: 6rpx solid #fff;
+}
+
+.menu .person .name{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  color: #fff;
+  margin-top: 270rpx;
+  font-size: 40rpx;
+}
+
+.content{
+  position: relative;
+}
+
+.menu1{
+  position: absolute;
+  width:90%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.menu1 .history{
+  margin-top: 60rpx;
+  display: flex;
+  /*background-color: #CAE6BD;*/
+  background-color: #fff;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx;
+  height: 60rpx;
+  border-radius: 25rpx;
+}
+
+.menu1 .history image{
+  height: 45rpx;
+  width: 45rpx;
+}
+
+.menu1 .opinion image{
+  height: 45rpx;
+  width: 45rpx;
+}
+
+.menu1 .about image{
+  height: 45rpx;
+  width: 45rpx;
+}
+
+.menu1 .opinion{
+  margin-top: 30rpx;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 20rpx;
+  height: 60rpx;
+  border-radius: 25rpx;
+}
+
+.menu1 .about{
+  margin-top: 30rpx;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 20rpx;
+  height: 60rpx;
+  border-radius: 25rpx;
+}
+
+.menu1 .written{
+  margin-left: 30rpx;
+  font-family: "pingfang","Times New Roman";
+  font-size: 36rpx;
+  color: #696969;
+}
+
+@font-face {
+  font-family: "pingfang";
+  src: url('https://dreamandfuture.oss-cn-beijing.aliyuncs.com/typeface/standard.ttf');
+}
+
+.menu1 .instruction{
+  margin-left: 350rpx;
+} 
+

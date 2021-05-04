@@ -1,0 +1,21 @@
+page {
+  width: auto;
+}
+
+.relation {
+  margin-top: 48%;
+  top: 50%;
+  left: 50%;
+  display: flex;
+}
+
+.relation image{
+  margin-left: 130rpx;
+  height: 70rpx;
+  width: 80rpx;
+}
+
+.relation text{
+  margin-top: 8rpx;
+  margin-left: 67rpx;
+}

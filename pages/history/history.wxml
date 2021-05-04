@@ -1,0 +1,6 @@
+<view class="content">
+  <view class="empty" wx:if="{{number == 0}}">
+    <image src="/static/16.png" mode="aspectFit"></image>
+    <view>亲，您还没有历史记录哦</view>
+  </view>
+</view>

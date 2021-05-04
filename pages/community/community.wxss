@@ -1,0 +1,29 @@
+page{
+  background-color: #ffffff;
+}
+
+.wiki{
+  margin: 30rpx;
+  color: #666;
+}
+
+.wiki .search{
+  position: absolute;
+  width:90%;
+  left:50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  margin-top: 5rpx;
+  background-color: #eeeeee;
+  border-radius: 10rpx;
+}
+
+.wiki .search icon{
+  margin-left: 50rpx;
+}
+
+.wiki .search .text{
+  margin-left: 35rpx;
+}

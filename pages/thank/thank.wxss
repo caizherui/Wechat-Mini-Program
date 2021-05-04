@@ -1,0 +1,18 @@
+.thank{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thank icon{
+  margin-top: 450rpx;
+}
+
+.thank .determine{
+  padding: 0 10rpx;
+  font-size: 43rpx;
+  margin-top: 100rpx;
+  border-radius: 10rpx;
+  border: 8rpx solid #00FFFF;
+  border-style: dashed;
+}

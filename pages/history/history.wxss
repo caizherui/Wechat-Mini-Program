@@ -1,0 +1,10 @@
+.content .empty{
+  margin-top: 300rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .empty image{
+  height: 90rpx;
+}

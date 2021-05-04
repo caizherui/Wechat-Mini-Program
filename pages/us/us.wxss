@@ -1,0 +1,68 @@
+page{
+  background-color: #fff;
+  color: black; 
+  width: auto;
+  padding: 20rpx;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head image{
+  margin-top: 125rpx;
+  height: 120rpx;
+}
+
+.head text{
+  margin-top: 20rpx;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main .updata{
+  position: relative;
+  padding-top: 30rpx;
+  margin-top: 70rpx;
+  border-top: 5rpx solid #D3D3D3;
+}
+
+.main .contact{
+  position: relative;
+  padding: 30rpx 0;
+  margin-top: 30rpx;
+  border-top: 5rpx solid #D3D3D3;
+  border-bottom: 5rpx solid #D3D3D3;
+}
+
+.main text{
+  margin-left: 13%;
+}
+
+.main image{
+  height: 45rpx;
+  width: 45rpx;
+}
+
+.main .icon1{
+  position: absolute;
+  left: 85%;
+  top: 33rpx;
+}
+
+.main .icon2{
+  position: absolute;
+  left: 85%;
+  top: 33rpx;
+}
+
+.service{
+  margin-top: 420rpx;
+  display: flex;
+  justify-content: center;
+}

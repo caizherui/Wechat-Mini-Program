@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/community/community",
+    "pages/feedback/feedback",
+    "pages/wiki/wiki",
+    "pages/us/us",
+    "pages/thank/thank",
+    "pages/1/1",
+    "pages/history/history",
+    "pages/relation/relation"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#CAE6BD",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "保卫森林"
+  },
+  "tabBar": {
+    "selectedColor": "#212121",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/11.png",
+        "selectedIconPath": "static/15.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "百科",
+        "iconPath": "static/10.png",
+        "selectedIconPath": "static/103.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/102.png",
+        "selectedIconPath": "static/104.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,15 @@
+<view class="search">
+  <input placeholder="搜索" bindinput="handleinput"></input>
+  <button bindtap="cancle">取消</button>
+</view>
+<view class="content">
+  <view class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consectetur consequuntur dolore illum possimus perferendis sunt asperiores explicabo fugit eum. Obcaecati expedita quam cum delectus explicabo dolor deserunt, recusandae debitis.
+  </view>   
+  <view class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consectetur consequuntur dolore illum possimus perferendis sunt asperiores explicabo fugit eum. Obcaecati expedita quam cum delectus explicabo dolor deserunt, recusandae debitis.
+  </view>  
+  <view class="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consectetur consequuntur dolore illum possimus perferendis sunt asperiores explicabo fugit eum. Obcaecati expedita quam cum delectus explicabo dolor deserunt, recusandae debitis.
+  </view> 
+</view>

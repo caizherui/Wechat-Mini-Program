@@ -1,0 +1,4 @@
+<view class="relation">
+  <image src="/static/r.png" mode="aspectFit"></image>
+  <text>联系邮箱: 2214187440</text>
+</view>

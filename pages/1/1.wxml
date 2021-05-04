@@ -1,0 +1,2 @@
+<!--pages/1/1.wxml-->
+<text bindtap="2">pages/1/1.wxml</text>

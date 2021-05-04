@@ -1,0 +1,107 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/bind/bind",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bind/bind",
+          "pathName": "pages/bind/bind",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goods/goods",
+          "pathName": "pages/goods/goods",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publish/publish",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/feedback",
+          "pathName": "pages/feedback/feedback",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/community/community",
+          "pathName": "pages/community/community",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/wiki/wiki",
+          "pathName": "pages/wiki/wiki",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/us/us",
+          "pathName": "pages/us/us",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/thank/thank",
+          "pathName": "pages/thank/thank",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/1/1",
+          "pathName": "pages/1/1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/history/history",
+          "pathName": "pages/history/history",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/relation/relation",
+          "pathName": "pages/relation/relation",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

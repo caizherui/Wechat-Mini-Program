@@ -1,0 +1,18 @@
+<view class="head">
+  <image src="/static/c.png" mode="aspectFit"></image>
+  <text>昆虫识别</text>
+  <view class="edition">0.1.1</view>
+</view>
+<view class="main">
+  <view class="updata">
+    <text>检查更新</text>
+    <image class="icon1" src="/static/8.png"></image>
+  </view>
+  <view class="contact" bindtap="handlerelation">
+    <text>联系我们</text>
+    <image class="icon2" src="/static/8.png"></image>
+  </view>
+</view>
+<view class="service">
+  <view class="clause">服务条款</view>
+</view>

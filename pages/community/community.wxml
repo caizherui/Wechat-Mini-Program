@@ -1,0 +1,7 @@
+<view class="wiki">
+  <navigator class="search" url="/pages/wiki/wiki">
+    <icon type="search" size="20"></icon>
+    <view class="text">查询</view>
+  </navigator>
+
+</view>

@@ -1,0 +1,137 @@
+/* pages/index/index.wxss */
+page{
+  background-color: #fff;
+}
+
+.ground{
+  height: 900rpx;
+}
+
+.ground .menu {
+  position:relative;
+  height: 900rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ground .menu .backpicture{
+  height: 900rpx;
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: normal;
+  border-radius: 0% 0% 25% 25%;
+}
+
+.menu .item .title{
+  font-size: 45rpx; /*rpx是像素*/
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu .item .tips{
+  font-size: 35rpx;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /*space-around：平均排放 space-between:两边排放*/
+}
+
+.ground .menu .top{
+  margin-top: 20rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.ground .menu .picture{
+  margin-top: 520rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+
+.menu .picture image{
+  height: 280rpx;
+  border-radius: 50rpx;
+}
+
+.menu .item{
+  margin-top: 795rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slogan{
+  position: absolute;
+  bottom: 0rpx;
+  left: 40%;
+  transform: translateX(-33%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan image{
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.slogan .natural{
+  color: #DA70D6;
+  padding-top: 5rpx;
+  font-size: 33rpx;
+}
+
+/*
+<view class="small">
+    <view class="item1">
+      <view class='picture'>
+        <image src="/static/1.jpg"></image>
+      </view>
+      <view class='tips'>
+        <text>生防课堂</text>
+      </view>
+    </view>
+    <view class="item2">
+      <view class='tips'>
+        <text>知名专家</text>
+      </view>
+      <view class='picture'>
+        <image src="/static/1.jpg"></image>
+      </view>
+    </view>
+    <view class="item3">
+      <view class='picture'>
+        <image src="/static/1.jpg"></image>
+      </view>
+      <view class='tips'>
+        <text>病虫百科</text>
+      </view>
+    </view>
+    <view class="item4">
+      <view class='tips'>
+        <text>生防现状</text>
+      </view>
+      <view class='picture'>
+        <image src="/static/1.jpg"></image>
+      </view>
+    </view>
+  </view>
+  */
+
+  /*
+  <view bindtap="clikeMe" data-nid="123" data-name="SD">点我跳转</view>
+
+<navigator url="/pages/redirect/redirect?id=666">跳转到新页面</navigator>
+*/

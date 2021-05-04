@@ -1,0 +1,38 @@
+<tabs tabs="{{tabs}}" binditemchange="handleitemchange">
+  <view wx:if="{{tabs[0].isActive}}">
+    <view class="main">
+      <view class="title">问题的种类</view>
+      <view class="tips">
+        <text>功能不全</text>
+        <text>使用遇到问题</text>
+        <text>卡顿闪退</text>
+        <text>其他</text>
+      </view>
+      <view class="content">
+        <textarea valur="{{textVal}}" bindinput="handletextinput" placeholder="请描述一下您的问题" cols="30" number="200" rows="10">
+        </textarea>
+        <view class="place">
+          <view class="calculation">{{current}}/{{max}}</view>
+        </view>
+        <view class="tool">
+          <button bindtap="handletabsitemchange">+</button>
+          <view class="up_img_item"
+          wx:for="{{chooseimgs}}"
+          wx:key="*this"
+          bindtap="handleremoveimg"
+          data-index="{{index}}">
+            <upimg src="{{item}}"></upimg>
+          </view>
+        </view>
+      </view>
+      <view class="form">
+        <button bindtap="handleformsubmit" type="warn" size="mini">
+          <icon type="success_no_circle" size="20" color="white"></icon>
+          提交
+        </button>
+      </view>
+    </view>
+    <view class="window" wx:if="{{tab==1}}"></view>
+  </view>
+  <view wx:else="{{tabs[1].isActive}}">1</view>
+</tabs>
